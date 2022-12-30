@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="796.0" prefWidth="1278.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <Pane prefHeight="200.0" prefWidth="361.0" style="-fx-background-color: #192A67;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="39.0" layoutY="46.0" text="GHANILI" textFill="WHITE">
+               <font>
+                  <Font name="SimSun" size="80.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="65.0" fitWidth="65.0" layoutX="33.0" layoutY="201.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../img/profile.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="111.0" layoutY="204.0" text="nom profile" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="23.0" />
+               </font>
+            </Label>
+            <Label layoutX="111.0" layoutY="230.0" text="pseudo" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="17.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="33.0" fitWidth="33.0" layoutX="33.0" layoutY="305.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../img/Icon%20awesome-music.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="111.0" layoutY="303.0" text="bibliotheque" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="23.0" />
+               </font>
+            </Label>
+            <Button layoutX="34.0" layoutY="375.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="300.0" style="-fx-background-color: white; -fx-background-radius: 10;" text="  ajouter un son" textFill="#4868d6">
+               <font>
+                  <Font name="Segoe UI" size="25.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../img/Icon%20awesome-plus-circle.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <effect>
+                  <DropShadow height="43.26" offsetX="10.0" offsetY="10.0" radius="31.942500000000003" spread="0.28" width="86.51">
+                     <color>
+                        <Color red="0.20000000298023224" green="0.20000000298023224" blue="0.20000000298023224" opacity="0.8500000238418579" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Button>
+            <Button layoutX="34.0" layoutY="452.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="300.0" style="-fx-background-color: #4868d6; -fx-background-radius: 10;" text="  ajouter un podcast" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="25.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../img/add%20w/Icon%20awesome-plus-circle.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <effect>
+                  <DropShadow height="43.26" offsetX="10.0" offsetY="10.0" radius="31.942500000000003" spread="0.28" width="86.51">
+                     <color>
+                        <Color red="0.20000000298023224" green="0.20000000298023224" blue="0.20000000298023224" opacity="0.8500000238418579" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Button>
+            <ImageView fitHeight="29.0" fitWidth="29.0" layoutX="34.0" layoutY="553.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../img/Icon%20awesome-comment-dots.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="111.0" layoutY="553.0" text="commentaire" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="23.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="29.0" fitWidth="29.0" layoutX="34.0" layoutY="610.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../img/Icon%20ionic-ios-information-circle-outline.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="111.0" layoutY="610.0" text="informations" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="23.0" />
+               </font>
+            </Label>
+            <Button layoutX="56.0" layoutY="689.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="239.0" style="-fx-background-color: #4868D6; -fx-background-radius: 20;" text="deconnexion" textFill="WHITE">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Button>
+         </children></Pane>
+   </left>
+   <center>
+      <Pane prefHeight="796.0" prefWidth="971.0" style="-fx-background-color: #294196;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="23.0" layoutY="27.0" text="ACCUEIL" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Light" size="80.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="23.0" fitWidth="23.0" layoutX="486.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../img/Icon%20awesome-search.png" />
+               </image>
+            </ImageView>
+            <TextField layoutX="518.0" layoutY="30.0" prefHeight="25.0" prefWidth="224.0" promptText="artistes, morceaux, podcasts, etc..." />
+            <Label layoutX="23.0" layoutY="125.0" text="MUSIQUE" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Light" size="46.0" />
+               </font>
+            </Label>
+            <ScrollPane layoutY="200.0" prefHeight="200.0" prefWidth="925.0" style="-fx-background-color: #294196;">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="2308.0" style="-fx-background-color: #294196;">
+                     <children>
+                        <AnchorPane prefHeight="200.0" prefWidth="243.0">
+                           <children>
+                              <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="63.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" />
+                              <Label layoutX="38.0" layoutY="146.0" text="titre" textFill="WHITE">
+                                 <font>
+                                    <Font name="Segoe UI" size="20.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="243.0" prefHeight="200.0" prefWidth="243.0">
+                           <children>
+                              <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="63.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" />
+                              <Label layoutX="38.0" layoutY="146.0" text="titre" textFill="WHITE">
+                                 <font>
+                                    <Font name="Segoe UI" size="20.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="486.0" prefHeight="200.0" prefWidth="243.0">
+                           <children>
+                              <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="63.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" />
+                              <Label layoutX="38.0" layoutY="146.0" text="titre" textFill="WHITE">
+                                 <font>
+                                    <Font name="Segoe UI" size="20.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="729.0" prefHeight="200.0" prefWidth="243.0">
+                           <children>
+                              <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="63.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" />
+                              <Label layoutX="38.0" layoutY="146.0" text="titre" textFill="WHITE">
+                                 <font>
+                                    <Font name="Segoe UI" size="20.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="972.0" prefHeight="200.0" prefWidth="243.0">
+                           <children>
+                              <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="63.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" />
+                              <Label layoutX="38.0" layoutY="146.0" text="titre" textFill="WHITE">
+                                 <font>
+                                    <Font name="Segoe UI" size="20.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </ScrollPane>
+            <Label layoutX="23.0" layoutY="411.0" prefHeight="58.0" prefWidth="218.0" text="PODCASTS" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Light" size="46.0" />
+               </font>
+            </Label>
+            <ScrollPane layoutY="478.0" prefHeight="200.0" prefWidth="925.0" style="-fx-background-color: #294196;">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="2308.0" style="-fx-background-color: #294196;">
+                     <children>
+                        <AnchorPane prefHeight="200.0" prefWidth="243.0">
+                           <children>
+                              <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="63.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" />
+                              <Label layoutX="38.0" layoutY="146.0" text="titre" textFill="WHITE">
+                                 <font>
+                                    <Font name="Segoe UI" size="20.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="243.0" prefHeight="200.0" prefWidth="243.0">
+                           <children>
+                              <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="63.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" />
+                              <Label layoutX="38.0" layoutY="146.0" text="titre" textFill="WHITE">
+                                 <font>
+                                    <Font name="Segoe UI" size="20.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="486.0" prefHeight="200.0" prefWidth="243.0">
+                           <children>
+                              <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="63.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" />
+                              <Label layoutX="38.0" layoutY="146.0" text="titre" textFill="WHITE">
+                                 <font>
+                                    <Font name="Segoe UI" size="20.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="729.0" prefHeight="200.0" prefWidth="243.0">
+                           <children>
+                              <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="63.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" />
+                              <Label layoutX="38.0" layoutY="146.0" text="titre" textFill="WHITE">
+                                 <font>
+                                    <Font name="Segoe UI" size="20.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="972.0" prefHeight="200.0" prefWidth="243.0">
+                           <children>
+                              <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="63.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" />
+                              <Label layoutX="38.0" layoutY="146.0" text="titre" textFill="WHITE">
+                                 <font>
+                                    <Font name="Segoe UI" size="20.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </ScrollPane>
+            <Pane layoutY="707.0" prefHeight="89.0" prefWidth="917.0" style="-fx-background-color: #192A67;">
+               <children>
+                  <Label layoutX="22.0" layoutY="11.0" text="Titre" textFill="WHITE">
+                     <font>
+                        <Font name="Segoe UI" size="25.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="22.0" layoutY="43.0" text="Artiiste" textFill="WHITE">
+                     <font>
+                        <Font name="Segoe UI" size="15.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="40.0" fitWidth="32.0" layoutX="769.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../img/Icon%20awesome-play.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="30.0" fitWidth="27.0" layoutX="828.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../img/Icon%20material-skip-next.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="30.0" fitWidth="27.0" layoutX="714.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true" scaleX="-1.0" scaleY="-1.0" scaleZ="0.0">
+                     <image>
+                        <Image url="@../../img/Icon%20material-skip-next.png" />
+                     </image>
+                  </ImageView>
+                  <Slider blockIncrement="41.0" layoutX="118.0" layoutY="39.0" prefHeight="14.0" prefWidth="573.0" />
+               </children>
+            </Pane>
+         </children></Pane>
+   </center>
+</BorderPane>
